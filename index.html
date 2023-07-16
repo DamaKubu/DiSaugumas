@@ -1,7 +1,56 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <title>Image Upload</title>
+  <style>
+    body {
+      background-color: #33cc33;
+      font-family: Arial, sans-serif;
+    }
+    
+    h1 {
+      color: white;
+      text-align: center;
+      padding-top: 50px;
+    }
+    
+    .upload-form {
+      max-width: 400px;
+      margin: 0 auto;
+      background-color: white;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+    
+    .upload-form input[type="file"] {
+      display: block;
+      margin: 15px 0;
+    }
+    
+    .upload-form input[type="submit"] {
+      background-color: #33cc33;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 3px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+    }
+    
+    .upload-form input[type="submit"]:hover {
+      background-color: #29a329;
+    }
+  </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <div class="upload-form">
+    <h1>Upload a Picture</h1>
+    <form action="#" method="post" enctype="multipart/form-data">
+      <input type="file" name="picture" id="picture" accept="image/*">
+      <input type="submit" value="Upload">
+    </form>
+  </div>
 </body>
 </html>
