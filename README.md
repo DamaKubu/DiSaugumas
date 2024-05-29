@@ -1,13 +1,10 @@
 # DiSaugumas
-Writing bachelors thesis on AI safety so thought I would just put all my code here.
+Paskutiniu metu didieji kalbos modeliai naudojami vis plačiau. Beveik visi naujausi dirbtiniame intelekto proveržiai kilo dėl transformatorių architektūros. Prieš pusę metų pasirodė alternatyvi architektūra - Mamba, turinti daugelį pranašumų transformerių architektūrai. Mamba konteksto ilgis praktiškai neribojamas, kadangi skaičiavimo kaštai didėja tiesiškai. Tuo tarpu transformatoriaus skaičiavimo kaštai didėja kvadratu. Tad didysis kalbos modelis Mamba nepamirš svarbių detalių per daugybę pokalbių. Deja dauguma dirbtinio intelekto (DI) modelių yra juodos dėžės -- jie atlieka, tai ko prašoma, bet neaišku kaip. Dėl to kyla saugumo problema. Mechanistinio interpretavimo (MI) srityje dirbantys žmonės, atidarinėja DI vidų, bandydami jį suprasti. Kadangi Mamba architektūra pasirodė tik prieš pusę metų ji tik pradedama tyrinėti MI srityje. Šiame darbe dalinuosi atliktu Mamba mechanistinio interpretavimo tyrimu.
 
 
-Pavargau, tikiuosi is trecio karto iseis, hmm vim nepalaiko lietuvisko rasymo. Gal palaiko tik temrinalas ne toks anyway,
+\textbf{Raktiniai žodžiai:} Mamba, LLM, mechanistinis interpretavimas.
 
 
+Recently, large language models have been increasingly used. Nearly all the latest breakthroughs in artificial intelligence have utilized the transformer architecture. Six months ago, an alternative architecture known as Mamba emerged, offering several advantages over transformers. Mamba's context length is virtually unlimited because its computational costs increase linearly, whereas the computational costs of transformers increase quadratically. Thus, an AI assistant using Mamba won’t forget important details over many conversations. Unfortunately, artificial intelligence is still largely a black box in many respects; it performs as requested, but how it does so remains unclear, raising security concerns. People working in the field of mechanistic interpretation are opening up these AI black boxes, attempting to understand them. Since the Mamba model was released   months ago, it is only beginning to be explored in the field of mechanistic interpretability. In this work, I share my research by doing mechanistic interpretability in the model with Mamba architecture.
 
-
-
-
-# Lithuanian version:
-VU rašau tema dirbtinio intelekto saugumas, kodus sudėsiu čia.
+\textbf{Keywords:}  Mamba, LLM, mechanistic interpretability. 
